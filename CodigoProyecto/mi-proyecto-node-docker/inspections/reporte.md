@@ -32,12 +32,11 @@ que mostró un resumen de los resultados, las 4 quality issues encontradas, y la
 - Reliability: Medio.
 - Maintainability: Bajo.
 
-#### Explicación
+#### Explicación e Impacto Potencial
 ECMAScript 2015 introdujo métodos y propiedades estáticas en el constructor `Number` para reemplazar varias funciones y valores globales. Utilizar sus objetos brinda consistencia y 
 organización, ya que se agrupan bajo el mismo namespace; disminuye la contaminación del espacio de nombres global, utilizando sus métodos en vez de variables globales; mejora el 
 comportamiento del código, evitando que se generen resultados inesperados; y finalmente, se alinea con los estándares modernos de JavaScript.
 
-#### Impacto Potencial
 El uso de funciones globales en lugar de métodos `Number` puede provocar comportamientos inesperados que generan errores, inconsistencias en el código y problemas de mantenibilidad 
 porque el código es difícil de entender para desarrolladores externos.
 
@@ -49,7 +48,7 @@ porque el código es difícil de entender para desarrolladores externos.
 #### Severity - Severidad
 - Maintainability: Medio.
 
-#### Explicación
+#### Explicación e Impacto Potencial
 Las asignaciones muertas se refieren a asignaciones realizadas a variables locales que posteriormente nunca se utilizan o se sobrescriben inmediatamente. Dichas asignaciones son
 innecesarias y no contribuyen a la funcionalidad ni a la claridad del código. Incluso pueden afectar negativamente al rendimiento. Eliminarlas mejora la limpieza y la legibilidad
 del código. Aunque las operaciones innecesarias no perjudiquen la corrección del programa, en el mejor de los casos, representan un desperdicio de recursos computacionales.
