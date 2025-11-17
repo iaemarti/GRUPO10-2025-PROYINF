@@ -4,7 +4,7 @@ Para efectos del uso de la Plataforma de ensayos PAES que hemos estado construye
 ## Información General
 - **Proyecto:** PAES Platform - Backend Routes
 - **Sección Analizada:** Backend, carpeta "routes".
-- **Fecha de Anáisis:** 17 de noviembre.
+- **Fecha de Análisis:** 17 de noviembre.
 - **Líneas de Código:** 540 
 
 ---
@@ -53,7 +53,7 @@ Se ha decidido abordar todas las recomendaciones, ya que las modificaciones son 
 Dado que no existen issues de baja prioridad que puedan posponerse, se procederá a implementar todas las correcciones sugeridas.
 
 ### Quality Issue 1: Prefer `Number.parseInt` over `parseInt`.
-Reemplaza las funciones de análisis sintáctico globales por sus equivalentes numéricos. El comportamiento es idéntico, pero los métodos numéricos son más explícitos y están mejor organizados.
+Reemplazar las funciones de análisis sintáctico globales por sus equivalentes numéricos. El comportamiento es idéntico, pero los métodos numéricos son más explícitos y están mejor organizados.
 
 ### Quality Issue 2: Remove this useless assignment to variable `profesorIdFinal`.
-Elimine la asignación innecesaria y luego pruebe el código para asegurarse de que el lado derecho de una asignación dada no tenga efectos secundarios.
+Eliminar la asignación innecesaria y luego pruebe el código para asegurarse de que el lado derecho de una asignación dada no tenga efectos secundarios.
